@@ -1,0 +1,204 @@
+
+.container {
+    background-color:#252525;
+    padding: 1em;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 1fr 25%;
+    grid-column-gap: 10px;
+    grid-column: 1 / 3;
+
+
+}
+
+body {
+    background-color: #323337;
+    color: #DCDBCF; 
+    font-family:Consolas;
+    text-transform: none;
+    background-image: url("./images/background_pattern.png");
+    grid-column: 1 / 3;
+}
+
+.baseparagraph {
+    grid-column: 1 / 3;
+    line-height:1.75;
+  }
+
+.sideparagraph {
+    grid-column: 1 / 2;
+    line-height:1.75;
+  }
+
+.darklist {
+    border-style:dashed;
+    border-color:#FECE00;
+    border-width:1px;
+    line-height:1.5;
+    background-color:#141414;
+    padding-top:3%;
+    padding-bottom:3%;
+
+}
+
+.lightlist {
+    border-style:dashed;
+    border-color:#FECE00;
+    border-width:1px;
+    line-height:1.5;
+    background-color:#B8B7AF;
+    color: #252525;
+    padding-top:3%;
+    padding-bottom:3%;
+
+}
+
+ul {
+    list-style-type: square;
+}
+
+.yellowbg {
+    background-color:#FECE00 !important;
+    text-indent: 1%;
+}
+
+.graybg {
+    background-color:#DCDBCF !important;
+    text-indent: 1%;
+}
+
+
+.sidepic {
+
+    border-style:dashed;
+    border-color:#FECE00;
+    border-width: 1px;
+    background-color:#141414;
+    padding:6%;
+    max-width:100%;
+    height: auto;
+    justify-content: center;
+    margin-left:10%;
+    grid-column: 2 / 3;
+
+}
+
+h1 {
+    color: #FECE00;
+    
+}
+
+h2 {
+    color: #252525;
+    background-color:#FECE00;
+    text-indent: 1%;
+
+}
+
+h3 {
+    color:#141414;
+    background-color: #DCDBCF;
+    text-indent: 1%;
+
+}
+
+
+@font-face {
+    font-family: VT323-Regular;
+    src: url(./fonts/VT323-Regular.ttf);
+  }
+
+.logo {
+    grid-column: 1 / 3;
+    
+}
+
+.m199x {
+    font-size: 70px;
+    font-family: VT323-Regular;
+    text-indent: 30px;
+    color: #FECE00;
+    background-color:#252525;
+    opacity: 0.75;
+    grid-column: 1 / 3;
+
+
+}
+
+.graphic {
+    color:#466000;
+    background-image: url(./images/lights.jpg);
+    background-repeat: no-repeat;
+    background-position: 0px -110px;
+    background-size:cover;
+    padding-top: 1px;
+    padding-bottom:1px;
+    grid-column: 1 / 3;
+
+
+}
+
+.topbar {
+    background-color: #FECE00;
+    text-align: center;
+    padding-top:10px;
+    padding-bottom:10px;
+    grid-column: 1 / 3;
+
+
+}
+
+
+a.navlink {
+    text-decoration: underline; 
+    color: #252525;
+    font-weight:bold;
+    padding: 1em;
+}
+
+
+a.navlink:hover {
+    background-color: #323337;
+    text-decoration: underline; 
+    color: #FECE00;
+    font-weight:bold;
+
+
+}
+
+a.ylist {
+    text-decoration: underline; 
+    color: #252525;
+
+}
+
+a.ylist:hover {
+    background-color: #323337;
+    color: #FECE00;
+    
+}
+
+a.yhighlight {
+    color: #FECE00;
+
+}
+
+a.yhighlight:hover {
+    background-color: #FECE00;
+    color: #323337;
+
+}
+
+a.glist {
+    text-decoration: underline; 
+    color: #252525;
+
+}
+
+a.glist:hover {
+    background-color: #323337;
+    color: #DCDBCF;
+    
+}

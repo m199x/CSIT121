@@ -1,0 +1,102 @@
+
+body {
+    background-image: linear-gradient(to bottom right, #d0c27fb2, rgba(209, 206, 168, 0.698));
+    color: #383e26; 
+    font-family:Georgia, 'Times New Roman', serif;
+    text-transform: none;
+}
+
+img {
+    height:auto; 
+    box-shadow: 10px 10px #bfbea486;
+
+}
+
+h1 {
+    font-family:'Cambria', serif;
+    color:#466000;
+    background-color:#ca83002c;
+    text-transform: none;
+    text-indent: 10px;
+    font-size:xx-large;
+    font-style:normal;
+}
+
+h2 {
+    font-family:'Cambria', 'Georgia', 'Times New Roman', serif;
+    color:#656d43;
+    text-transform: none;
+    margin-left: 30px;
+    font-size:x-large;
+    font-style:italic
+}
+
+h3 {
+    font-family:'Cambria', 'Georgia', 'Times New Roman', serif;
+    background-color: #ecebc9;
+    color:#466000;
+    text-transform: capitalize;
+    font-size:22px;
+    text-indent: 15px;
+    margin-top: 30px;
+}
+
+p {
+    font-size:18px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    text-transform: none;
+    line-height:175%;
+      }
+
+a { 
+    text-decoration: underline; 
+    color: #f29d00;
+    font-weight:bold}
+
+li { 
+    line-height:120%;
+    font-size:18px;
+    background-color:#ffffec49;
+}
+
+.kitchen {
+    background-color:#ecebc9;
+    color:#466000;
+    background-image: url("../lab03/images/kitchen_still_life.png");
+    background-repeat: no-repeat;
+    background-position: 0px -600px;
+    background-size:cover;
+    padding-top: 1px;
+    padding-bottom:1px;
+}
+
+.container { 
+    background-color:#FFFCEC;
+    padding: 1.25em;
+    
+}
+
+.article {
+    text-align: left;
+    max-width:1000px;
+
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.logo {
+    font-size: 70px;
+    font-family: 'Garamond', Times, serif;
+    text-indent: 30px;
+    color: #466000;
+    background-color:#fffceccd;
+    opacity: 0.8;
+
+}

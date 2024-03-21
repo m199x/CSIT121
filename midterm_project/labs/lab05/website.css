@@ -1,0 +1,33 @@
+
+body {
+    background-color: #323337;
+    color: #DCDBCF; 
+    font-family:SF Mono, Consolas;
+    text-transform: none;
+}
+
+h1 {
+    color: #FECE00;
+    margin:10px;
+}
+
+.container {
+    background-color:#252525;
+    padding: 1em;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    text-align: center;
+
+
+}
