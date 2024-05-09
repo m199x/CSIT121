@@ -1,0 +1,142 @@
+body {
+    color:darkblue;
+    background-color:rgb(255, 255, 243);
+    width:70%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    grid-template-columns: 1fr 1fr;
+    grid-column: 1;
+    background-image: url("./images/montypython.jpg");
+    background-size: cover;
+}
+
+p {
+
+    margin:10px;
+}
+
+h1 {
+    text-indent:1%;
+
+}
+
+
+h2, h3, h4 {
+
+    margin:10px;
+
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+ul, ol {
+    margin:10px;
+    padding-bottom:10px;
+
+}
+
+.logo {
+    grid-column: 1;
+    font-size:300%;
+    font-family: Cambria;
+    margin-bottom: -.05px;
+}
+
+h1 {
+
+        background-color: rgba(255, 192, 115, 0.677);
+}
+
+h4 {
+    background-color: rgba(255, 174, 0, 0.341);
+
+}
+
+input[type="text"] {
+    width: 200px;
+}
+
+
+
+a:link {
+    color:brown;
+    text-decoration:none;
+}
+
+a:visited {
+    color:brown;
+    text-decoration:none;
+}
+
+a:hover {
+    color:rgb(255, 254, 245);
+    background-color: rgb(116, 70, 70);
+}
+
+
+.container {
+    
+    background-image: linear-gradient(to bottom right, #fffdf1b2, rgba(209, 206, 168, 0.698));
+
+}
+
+table, tr, td { 
+    border: 1px solid #8c7952; 
+    border-collapse: collapse;
+    background-color: rgb(246, 242, 228);
+
+  }
+
+  th {background-color:rgb(228, 228, 228);
+    border: 1px solid #8c7952; 
+    border-collapse: collapse;
+  }
+
+
+.penblog {
+    background-color: #e4bd78;
+    text-align: right;
+    word-spacing: 30px;
+}
+
+.bodyimage {
+    max-width:30%;}
+
+.blogpost {
+    grid-column: 1;
+    background-color: rgb(255, 248, 240);
+    
+}
+
+
+
+.topbar {
+    background-color:rgba(255, 140, 0, 0.688);
+    padding:1%;
+    text-align: right;
+    word-spacing: 30px;
+    font-size: 100%;
+}
+
+.navlink {
+
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:rgb(227, 221, 213);
+    padding:1%;
+}
+
+.foot { 
+    padding: 10px;
+    margin-top: 5px;
+    background-color: #968d7cac;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:rgb(252, 245, 234);
+}
+
+@media only screen and (max-width: 768px) {
+   body {
+    width: 90%;
+    }
+    }
