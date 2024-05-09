@@ -1,0 +1,28 @@
+body {
+    width: 70%;
+    margin: auto;
+    font-family: Consolas;
+    background-color:azure;
+}
+
+h2 {
+color:darkblue;
+background-color: lightblue;
+}
+
+h3 {
+color: darkcyan;
+background-color:lightcyan;
+}
+
+a:hover {
+    color:orange;
+}
+
+a:link {
+    color:rgb(119, 0, 123);
+}
+
+a:visited {
+    color:rgb(169, 133, 170);
+}
